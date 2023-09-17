@@ -1,22 +1,5 @@
-// Define the url for the GeoJSON earthquake data
-
-// console.log("logic.js")
-// var url = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson";
-
-
-
-// // Create the map parameters
-// var myMap = L.map("map", {
-//     center: [
-//         40.7, -94.5],
-//     zoom: 3   
-// });
-
-// // Add a tile layer to the map
-// L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-//     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-// }).addTo(myMap);
-console.log("testlogic2.js")
+//Create a record of your starting point
+console.log("logic.js")
 //Define a baseMaps object to hold the base
 var theMap = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
@@ -93,7 +76,7 @@ d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geoj
             return 1;
         }
 
-        return mag * 6;
+        return mag * 4;
     }
 
     // Add earthquake data to the map
