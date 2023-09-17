@@ -1,5 +1,8 @@
 # leaflet-challenge
 
+<img width="1440" alt="Earthquake Map"
+src="https://github.com/Tarynfo1/leaflet-challenge/blob/9179e47c5bccd52e50196d285f637afba4f77215/Images/completed_code_image.png">
+
 ## Background
 The United States Geological Survey, or USGS for short, is responsible for providing scientific data about natural hazards, the health of our ecosystems and environment, and the impacts of climate and land-use change. Their scientists develop new methods and tools to supply timely, relevant, and useful information about the Earth and its processes.
 
@@ -9,21 +12,22 @@ The USGS is interested in building a new set of tools that will allow them to vi
 - README
 - index.html
 - static -> js -> logic.js, css -> style.css
+- Images
+
 ***
 ### - Step 1. Retrieve dataset:
 
 The USGS provides earthquake data in a number of different formats, updated every 5 minutes. Visit the USGS GeoJSON FeedLinks to an external site. page and choose a dataset to visualise.
-When you click a dataset (such as "All Earthquakes from the Past 7 Days"), you will be given a JSON representation of that data. Use the URL of this JSON to pull in the data for the visualisation
-
+When a dataset is selected(such as "All Earthquakes from the Past 7 Days"), a JSON representation of that data will be displayed. the URL of this JSON is used to pull in the data for the visualisation.
 
 ### - Step 2 Import and visualise the data by doing the following:
 
-Using Leaflet, create a map that plots all the earthquakes from a dataset based on longitude and latitude.
+A map was created using Leaflet that plots all the earthquakes from a dataset based on longitude and latitude.
 
-Data markers should reflect the magnitude of the earthquake by their size and the depth of the earthquake by colour. Earthquakes with higher magnitudes should appear larger, and earthquakes with greater depth should appear darker in colour.
+Data markers reflect the magnitude of the earthquake by their size and the depth of the earthquake by colour. Earthquakes with higher magnitudes appear larger, and earthquakes with greater depth appear darker in colour.
 
 ### - Step 3
-Plot a second dataset on your map to illustrate the relationship between tectonic plates and seismic activity. Use the following link to pull in the data https://github.com/fraxen/tectonicplatesLinks 
+A second dataset is plotted on the map to illustrate the relationship between tectonic plates and seismic activity. The following link is used to pull in the data https://github.com/fraxen/tectonicplatesLinks 
 ***
 
 ## Tools used
