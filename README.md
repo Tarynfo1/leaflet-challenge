@@ -17,8 +17,8 @@ The USGS is interested in building a new set of tools that will allow them to vi
 ***
 ### - Step 1. Retrieve dataset:
 
-The USGS provides earthquake data in a number of different formats, updated every 5 minutes. Visit the USGS GeoJSON FeedLinks to an external site. page and choose a dataset to visualise.
-When a dataset is selected(such as "All Earthquakes from the Past 7 Days"), a JSON representation of that data will be displayed. the URL of this JSON is used to pull in the data for the visualisation.
+The USGS provides earthquake data in a number of different formats, updated every 5 minutes. 
+When a dataset is selected from the website (such as "All Earthquakes from the Past 7 Days"), a JSON representation of that data will be displayed. the URL of this JSON is used to pull in the data for the visualisation.
 
 ### - Step 2 Import and visualise the data by doing the following:
 
@@ -26,7 +26,8 @@ A map was created using Leaflet that plots all the earthquakes from a dataset ba
 
 Data markers reflect the magnitude of the earthquake by their size and the depth of the earthquake by colour. Earthquakes with higher magnitudes appear larger, and earthquakes with greater depth appear darker in colour.
 
-### - Step 3
+### - Step 3 Show the relationship between the seismic activity and the tectonic plates
+
 A second dataset is plotted on the map to illustrate the relationship between tectonic plates and seismic activity. The following link is used to pull in the data https://github.com/fraxen/tectonicplatesLinks 
 ***
 
