@@ -7,8 +7,8 @@ The USGS is interested in building a new set of tools that will allow them to vi
 
 ## Contents
 - README
-index.html
-static -> js -> logic.js, css -> style.css
+- index.html
+- static -> js -> logic.js, css -> style.css
 ***
 ### - Step 1. Retrieve dataset:
 
